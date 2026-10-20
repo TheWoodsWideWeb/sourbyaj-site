@@ -478,3 +478,21 @@ html.no-motion .chron li::before{width:190px}
   .gate-choices .btn{width:100%}
 }
 .keeper-grid:has(>.keeper-prose:only-child){grid-template-columns:1fr}
+/* r7 mockup */
+.chapter-index{margin-bottom:26px}
+.plate2002-caption .keeper-copy{margin-top:30px;padding-top:26px;border-top:1px solid var(--line-bone-strong)}
+.plate2002-caption .keeper-copy p{font:400 18px/1.6 var(--serif);color:rgba(236,230,214,.84);max-width:30em}
+.plate2002-caption .keeper-copy a{color:var(--bone)}
+.plate2002-caption .keeper-copy .cite{text-decoration-color:var(--brass)}
+.plate2002-caption .keeper-copy sup a{color:var(--brass)}
+.plate2002-caption .link-arrow{margin-top:26px;color:var(--brass)}
+.expressions{gap:clamp(24px,3vw,48px);background:none}
+.expression-media{aspect-ratio:auto;height:min(62vh,600px)}
+.detail{display:grid;place-items:end center;padding:clamp(28px,3vw,44px) 0 clamp(36px,3.6vw,52px)}
+.detail::before{content:"";position:absolute;left:8%;right:8%;bottom:0;height:46%;background:radial-gradient(55% 60% at 50% 92%,rgba(107,118,49,.22),rgba(107,118,49,.06) 55%,transparent 75%);pointer-events:none}
+.detail--pouch::before{background:radial-gradient(55% 60% at 50% 92%,rgba(0,132,61,.16),rgba(0,132,61,.05) 55%,transparent 75%)}
+.detail img,.detail--jar img,.detail--pouch img{position:relative;width:auto;max-width:86%;height:100%;object-fit:contain;transform:none;mix-blend-mode:lighten;-webkit-mask-image:linear-gradient(90deg,transparent,#000 16%,#000 84%,transparent),linear-gradient(180deg,transparent,#000 9%,#000 86%,transparent);mask-image:linear-gradient(90deg,transparent,#000 16%,#000 84%,transparent),linear-gradient(180deg,transparent,#000 9%,#000 86%,transparent);-webkit-mask-composite:source-in;mask-composite:intersect}
+.expression:hover .detail img{transform:translateY(-6px)}
+@media (max-width:960px){.expression-media{height:min(70vh,520px)}}
+.detail img,.detail--jar img,.detail--pouch img{height:calc(min(62vh,600px) - 100px);max-height:none}
+@media (max-width:960px){.detail img,.detail--jar img,.detail--pouch img{height:calc(min(70vh,520px) - 90px)}}
