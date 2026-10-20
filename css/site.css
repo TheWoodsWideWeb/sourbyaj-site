@@ -318,3 +318,6 @@ html.is-render .topbar,html.is-render .skip{display:none}
   .gate-body .display{font-size:42px}
   .gate-choices .btn{width:100%}
 }
+.chron-srcs{grid-column:2;display:flex;flex-wrap:wrap;gap:6px 24px}
+.chron-srcs .chron-src{grid-column:auto;padding-top:2px}
+@media (max-width:600px){.chron-srcs{grid-column:1;gap:6px 18px}}
