@@ -1,4 +1,4 @@
-/* SOUR by AJ Sour Diesel — site-v1
+/* SOUR by AJ Sour Diesel — site-v2
    Local interaction only: age gate, scroll reveals, slim bar. No analytics, no requests. */
 (() => {
   const doc = document.documentElement;
