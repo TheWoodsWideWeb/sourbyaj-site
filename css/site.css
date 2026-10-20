@@ -496,3 +496,4 @@ html.no-motion .chron li::before{width:190px}
 @media (max-width:960px){.expression-media{height:min(70vh,520px)}}
 .detail img,.detail--jar img,.detail--pouch img{height:calc(min(62vh,600px) - 100px);max-height:none}
 @media (max-width:960px){.detail img,.detail--jar img,.detail--pouch img{height:calc(min(70vh,520px) - 90px)}}
+.plate2002:last-child{margin-bottom:0}
